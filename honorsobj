@@ -1,0 +1,14 @@
+public class DiplomaWithHonors extends Diploma{
+  private String hons;
+  
+  public DiplomaWithHonors(String h, String c, String n){
+    super(c, n);
+    hons = h;
+  }
+  
+  public void withHonors(String h, String c, String n){
+    Diploma k = new Diploma(c,n);
+    diplomaOut(c,n);
+    System.out.println("*** with honors ***");
+  }
+}
