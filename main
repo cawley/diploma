@@ -1,0 +1,12 @@
+public class Diploma{
+  private String course;
+  private String name;
+  public Diploma(String c, String n){
+    name = n;
+    course = c;
+  }
+  public String toString(){
+    System.out.println("This certifies that " + n);
+    System.out.println(" has completed a course in " + c);
+  }
+}
